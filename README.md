@@ -1,1 +1,0 @@
-# NatsukiAkaishi.github.io
