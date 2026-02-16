@@ -33,7 +33,7 @@
         /* 図とキャプション */
         figure { text-align: center; margin: 40px 0; }
         figure img {
-            max-width: 50%; /* 図が大きすぎる場合はこの数値を小さくしてください (例: 60%) */
+            max-width: 40%;
             height: auto;
         }
         figcaption { font-size: 0.9em; color: #666; margin-top: 10px; padding: 0 10%; text-align: left; }
@@ -46,13 +46,13 @@
         .table-title { text-align: center; font-size: 1.4em; font-weight: bold; margin-top: 30px; color: #2c3e50; }
         .table-responsive {
             width: 100%;
-            overflow-x: auto; /* 横スクロールを許可 */
+            overflow-x: auto;
             margin-bottom: 40px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            white-space: nowrap; /* 表内の改行を防ぐ */
+            white-space: nowrap;
         }
         th, td {
             border: 1px solid #ddd;
@@ -64,7 +64,7 @@
         
         /* 提案手法（SELEBI）を目立たせるハイライト設定 */
         th.highlight-col {
-            background-color: #e6f0fa; /* 薄いブルー */
+            background-color: #e6f0fa;
             color: #0056b3;
             font-size: 1.1em;
             border-left: 2px solid #007bff;
@@ -76,7 +76,6 @@
             border-left: 2px solid #007bff;
             border-right: 2px solid #007bff;
         }
-        /* テーブルの最後の行の下線を太くする */
         tr:last-child td.highlight-col {
             border-bottom: 2px solid #007bff;
         }
@@ -131,59 +130,59 @@
                 <tbody>
                     <tr>
                         <th>Bongo</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha2/Bongo_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha2/Bongo_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha2/Bongo_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha2/Bongo_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_01/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_01/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_01/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_01/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_01/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>CastanetsViolin</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha2/CastanetsViolin_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha2/CastanetsViolin_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha2/CastanetsViolin_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha2/CastanetsViolin_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_02/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_02/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_02/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_02/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_02/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>DrumSolo</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha2/DrumSolo_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha2/DrumSolo_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha2/DrumSolo_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha2/DrumSolo_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_03/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_03/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_03/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_03/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_03/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Glockenspiel</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha2/Glockenspiel_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha2/Glockenspiel_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha2/Glockenspiel_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha2/Glockenspiel_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_04/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_04/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_04/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_04/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_04/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Jazz</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha2/Jazz_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha2/Jazz_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha2/Jazz_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha2/Jazz_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_05/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_05/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_05/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_05/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_05/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Pop</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha2/Pop_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha2/Pop_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha2/Pop_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha2/Pop_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_06/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_06/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_06/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_06/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_06/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Stepdad</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha2/Stepdad_PV_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha2/Stepdad_PVDR_alpha2.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha2/Stepdad_DIALGA_alpha2.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha2/Stepdad_SELEBI_alpha2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_07/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_07/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_07/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_07/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_07/method4.wav"></audio></td>
                     </tr>
                 </tbody>
             </table>
@@ -205,66 +204,63 @@
                 <tbody>
                     <tr>
                         <th>Bongo</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha4/Bongo_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha4/Bongo_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha4/Bongo_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Bongo/Bongo_alpha4/Bongo_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_08/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_08/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_08/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_08/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_08/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>CastanetsViolin</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha4/CastanetsViolin_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha4/CastanetsViolin_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha4/CastanetsViolin_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/CastanetsViolin/CastanetsViolin_alpha4/CastanetsViolin_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_09/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_09/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_09/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_09/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_09/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>DrumSolo</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha4/DrumSolo_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha4/DrumSolo_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha4/DrumSolo_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/DrumSolo/DrumSolo_alpha4/DrumSolo_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_10/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_10/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_10/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_10/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_10/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Glockenspiel</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha4/Glockenspiel_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha4/Glockenspiel_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha4/Glockenspiel_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Glockenspiel/Glockenspiel_alpha4/Glockenspiel_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_11/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_11/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_11/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_11/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_11/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Jazz</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha4/Jazz_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha4/Jazz_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha4/Jazz_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Jazz/Jazz_alpha4/Jazz_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_12/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_12/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_12/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_12/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_12/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Pop</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha4/Pop_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha4/Pop_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha4/Pop_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Pop/Pop_alpha4/Pop_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_13/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_13/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_13/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_13/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_13/method4.wav"></audio></td>
                     </tr>
                     <tr>
                         <th>Stepdad</th>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_original.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha4/Stepdad_PV_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha4/Stepdad_PVDR_alpha4.wav"></audio></td>
-                        <td><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha4/Stepdad_DIALGA_alpha4.wav"></audio></td>
-                        <td class="highlight-col"><audio controls preload="none" src="soundDemoForHearingTest/Stepdad/Stepdad_alpha4/Stepdad_SELEBI_alpha4.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_14/ref.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_14/method1.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_14/method2.wav"></audio></td>
+                        <td><audio controls preload="none" src="Experiment_Audio/Trial_14/method3.wav"></audio></td>
+                        <td class="highlight-col"><audio controls preload="none" src="Experiment_Audio/Trial_14/method4.wav"></audio></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-
-        <!-- <h3 id="subjective-evaluation">2. Subjective Evaluation</h3> -->
-        <!-- <p>※ここに2つ目のセクション（主観評価実験など）の文章や図表が入ります。</p> -->
 
     </section>
 
@@ -273,7 +269,7 @@
         <p>[1] J. Driedger and M. M&uuml;ller, “TSM Toolbox: MATLAB implementations of time-scale modification algorithms,” in Proc. Int. Conf. Digit. Audio Eff. (DAFx), 2014.</p>
         <p>[2] J. Laroche and M. Dolson, “Improved phase vocoder timescale modification of audio,” IEEE Trans. Speech Audio Process., 1999.</p>
         <p>[3] N. Holighaus and Z. Pr&uring;&scaron;a, “Phase vocoder done right,” in Eur. Assoc. Signal Process., 2017.</p>
-        <p>[4] N. Akaishi, K. Yatabe, and Y. Oikawa, “Improving phase-vocoder-based time stretching by time-directional spectrogram squeezing,” in IEEE Int. Conf. Acoust. Speech Signal Process., pp. 1--5, 2023.</p>
+        <p>[4] N. Akaishi, K. Yatabe, and Y. Oikawa, “Improving phase-vocoder-based time stretching by time-directional spectrogram squeezing,” in IEEE Int. Conf. Acoust. Speech Signal Process., pp. 1&ndash;5, 2023.</p>
         <p>[5] J. Driedger, M. M&uuml;ller, and S. Ewert, “Improving time-scale modification of music signals using harmonic-percussive separation,” IEEE Signal Proc. Lett., 2014.</p>
     </section>
 
